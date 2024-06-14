@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"amulya",
+    "username":"amulyathati",
+    "password": "ammu@143",
+    "gender": "Female",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"amulyathati",
+    "password": "ammu@143"
+}
